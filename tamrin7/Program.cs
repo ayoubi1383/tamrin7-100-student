@@ -166,7 +166,7 @@ do
             }
             break;
         case 0:
-            break;
+            throw new ArgumentOutOfRangeException();
     }
 
 } while (true);
